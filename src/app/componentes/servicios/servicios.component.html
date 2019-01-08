@@ -1,0 +1,55 @@
+<section id="servicios" >
+  <div class="container">
+
+      <div class="section-header">
+          <h2 class="section-title text-center wow fadeInDown">Mis Servicios</h2>
+          <p class="text-center wow fadeInDown">Estos son los servicios que ofrezco con todas las garantias para los clientes.</p>
+      </div>
+
+      <div class="row">
+          <div class="features">
+              <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms" *ngFor="let servicio of servicios">
+                  <div class="features-item">
+                      <div class="features-icon">
+                          <i class="{{servicio.icono}}"></i>
+                      </div>
+                      <h3 class="features-title font-alt">{{servicio.nombre}}</h3>
+                      <p>{{servicio.descripcion}}</p>
+                  </div>
+
+              </div>
+
+             <!--  <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                  <div class="features-item">
+                      <div class="features-icon">
+                          <i class="fa fa-cubes"></i>
+                      </div>
+                      <h3 class="features-title font-alt">SEO Services</h3>
+                      Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.
+                  </div>
+              </div>             
+             
+              <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">
+                  <div class="features-item">
+                      <div class="features-icon">
+                          <i class="fa fa-laptop"></i>
+                      </div>
+                      <h3 class="features-title font-alt">Optimised for speed</h3>
+                      Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.
+                  </div>
+              </div>
+
+              <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="700ms">
+                  <div class="features-item">
+                      <div class="features-icon">
+                          <i class="fa fa-paw"></i>
+                      </div>
+                      <h3 class="features-title font-alt">Optimised for speed</h3>
+                      Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.
+                  </div>
+              </div> -->
+
+          </div>
+      </div><!--/.row-->    
+  </div><!--/.container-->
+</section><!--/#services-->

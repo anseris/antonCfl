@@ -1,0 +1,16 @@
+.numero{
+    background-color: #333745;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 57px;
+    font-size: 40px;
+    color: #EEF5DB;
+    font-weight: bold;
+    border: 2px solid #E63462;
+}
+
+.fadeInLeft img{
+    margin-top: 80px;
+}

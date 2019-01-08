@@ -1,0 +1,14 @@
+
+.imgLogo{
+    margin-top: -22px;
+    width: 84%;
+}
+
+.telefono {
+    float: left;
+    margin-top: 10px;
+}
+.telefono span {
+    color:#C7EFCF;
+    font-size: 25px;
+}

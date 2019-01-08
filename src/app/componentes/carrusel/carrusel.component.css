@@ -1,0 +1,63 @@
+.bg1{
+   background-image: url('../../../assets/images/slider/bg1.jpg')
+}
+.bg2{
+    background-image: url("../../../assets/images/slider/bg2.jpg");
+}
+.bg3{
+    background-image: url("../../../assets/images/slider/bg3.jpg");
+}
+.bg4{
+    background-image: url("../../../assets/images/slider/bg4.jpg");
+}
+.bg6{
+    background-image: url("../../../assets/images/slider/bg6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.bg6 h2{
+    color:#333745;
+ }
+ 
+ .bg6 h2 span{
+     color:#E63462;
+  }
+.bg7{
+    background-image: url("../../../assets/images/slider/bg7.jpg");
+    background-size: cover;
+  background-position: center;
+}
+
+.bg7 h2{
+   color:#333745;
+}
+
+.bg7 h2 span{
+    color:#E63462;
+ }
+
+.bg8{
+    background-image: url("../../../assets/images/slider/bg8.jpg");
+    background-size: cover;
+  background-position: center;
+}
+.bg8 h2{
+   color: #EEF5DB;
+}
+.bg8 h2 span{
+    color: #E63462;
+}
+.contenidoImagen{
+    margin-top: 150px;
+}
+.contenidoImagen h2{
+    color: #EEF5DB;
+    font-size: 50px;
+}
+.contenidoImagen h2 span{
+    color: #E63462;
+}
+
+.contenidoImagen a{
+    margin-top: 45px;
+}

@@ -1,0 +1,21 @@
+
+<section id="main-slider">
+    <div class="owl-carousel">
+        <div *ngFor="let carrusel of contenidoFotos" class="item {{carrusel.bg}}">
+            <div class="slider-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="carousel-content text-center">
+                                <h2>{{carrusel.textoPrincipal}} <span>{{carrusel.palabraColoreada}}</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.item-->
+        
+       
+        
+    </div><!--/.owl-carousel-->
+</section><!--/#main-slider-->

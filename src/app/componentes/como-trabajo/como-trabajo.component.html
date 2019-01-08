@@ -1,0 +1,27 @@
+<section id="como">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title text-center wow fadeInDown">Cómo Trabajo</h2>
+            <p class="text-center wow fadeInDown">Esta es mi forma de trabajar, la cual, lo clientes con lo que he trabajado han quedado totalmente satisfechos.</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 wow fadeInLeft">
+                <img class="img-responsive" src="../../assets/images/man.png" alt="">
+                
+            </div>
+            
+            <div class="col-sm-6">
+
+                <div class="media service-box wow fadeInRight" *ngFor="let paso of pasos">
+                    <div class="pull-left">
+                        <div class="numero">{{paso.nunPaso}}</div>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">{{paso.titulo}}</h4>
+                        <p>{{paso.descripcion}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
